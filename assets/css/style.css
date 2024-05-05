@@ -1017,6 +1017,14 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq {
+  background-color: #4b4949;
+}
+
+.faq h2 {
+  color: white;
+}
+
 .faq .faq-list {
   padding: 0;
   list-style: none;
@@ -1045,12 +1053,13 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  color: white;
 }
 .faq .faq-list .icon-show {
   display: none;
 }
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #f0f1f2;
 }
 .faq .faq-list a.collapsed:hover {
   color: #e03a3c;
@@ -1132,6 +1141,8 @@ section {
   opacity: 1;
   bottom: 15px;
 }
+
+.team SPAN.li  {display: list-item; margin-left: 2em}
 
 /*--------------------------------------------------------------
 # Contact
