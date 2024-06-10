@@ -712,14 +712,21 @@ section {
   transition: 0.3s;
 }
 .services .icon-box:hover {
-  background: #2b2b2b;
+  background:darkgrey;
+  color: whitesmoke;
 }
+
 .services .icon-box i {
   float: left;
   color: #BF0073;
   font-size: 40px;
   line-height: 0;
 }
+
+.services .icon-box i:hover {
+  color: whitesmoke;
+}
+
 .services .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
@@ -761,6 +768,7 @@ section {
 .services .content .about-btn:hover {
   background: #e35052;
   background: #BF0073;
+  color: whitesmoke;
 }
 
 /*--------------------------------------------------------------
@@ -1734,7 +1742,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
+  color: darkslategrey;
   font-size: 14px;
   background: #111111;
 }
@@ -1798,7 +1806,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #aaaaaa;
+  color: black;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
