@@ -1432,7 +1432,7 @@ section {
   border-top: 1px solid #e6e6e6;
 }
 .blog .entry .entry-footer i {
-  color: #5e5e5e;
+  color: #BF0073;
   display: inline;
 }
 .blog .entry .entry-footer a {
@@ -1494,7 +1494,7 @@ section {
   margin: 0 10px 10px 0;
 }
 .blog .blog-author .social-links a {
-  color: rgba(17, 17, 17, 0.5);
+  color: #BF0073;
   margin-right: 5px;
 }
 .blog .blog-author p {
@@ -1859,10 +1859,11 @@ section {
   padding-top: 5px;
   font-size: 13px;
 }
+
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2b2b2b;
+  background: #BF0073;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1878,3 +1879,4 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
