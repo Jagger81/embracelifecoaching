@@ -1133,8 +1133,53 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Coaching
+--------------------------------------------------------------*/
+.testimonials .content .about-btn {
+  padding: 8px 30px 9px 30px;
+  color: darkslategrey;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #BF0073;
+}
+.coaching .content .about-btn i {
+  font-size: 16px;
+  padding-left: 5px;
+}
+.coaching .content .about-btn:hover {
+  background: #e35052;
+  background: #BF0073;
+  color: whitesmoke;
+}
+/*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team .content .about-btn {
+  padding: 8px 30px 9px 30px;
+  color: darkslategrey;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #BF0073;
+}
+.team .content .about-btn i {
+  font-size: 16px;
+  padding-left: 5px;
+}
+.team .content .about-btn:hover {
+  background: #e35052;
+  background: #BF0073;
+  color: whitesmoke;
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
